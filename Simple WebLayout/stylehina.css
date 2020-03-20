@@ -1,0 +1,88 @@
+#wrapper{
+    width:1000px;
+    height:1050px;
+    margin: auto;
+    padding-top: 400px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("Images/hina-background.jpg") fixed 50%;
+}
+#back{
+    position: relative;
+    float: left;
+    margin-top: -400px;
+    text-decoration: none;
+    
+    color: rgb(248, 153, 44);
+    font-weight: bold;
+}
+div:nth-child(even){
+    background-color: rgba(248, 153, 44,0.5) ;
+    color: floralwhite;
+}
+div:nth-child(2n+1){
+    background-color: rgb(245, 221, 178);
+    color: black;
+}
+#name{
+    width: 1000px;
+    height: 200px;
+    float: left;
+}
+h1{
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+h2{
+    font-size: 25px;    
+    margin-top: 50px;
+}
+#contact{
+    width:1000px;
+    height: 50px;
+    float: left;
+    font-size: 12px;    
+}
+.cont{
+    margin: 5px;
+}
+#summary{
+    width:970px;
+    height: 200px;
+    float: left;
+    padding-right: 30px;
+    text-align: center;
+    line-height: 38px;
+}
+#hina-art{
+    width: 200px;
+    height: 160px;
+    float: left;
+    margin-left: 30px;
+    margin-right: 25px;
+    padding: 5px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+}
+#achievements{
+    width:1000px;
+    height: 200px;
+    float: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+#education{
+    width:900px;
+    height: 200px;
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    padding-left: 100px;
+    letter-spacing: 5px;
+    li
+}
+#social{
+    width:1000px;
+    height: 200px;
+    float: left;
+}
